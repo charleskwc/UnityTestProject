@@ -7,8 +7,8 @@ public class PlayerController : MonoBehaviour {
 	// Use this for initialization
 	void FixedUpdate () 
 	{
-		float moveHorizontal = Input.GetAxis("Vertical");
-		float moveVertical = Input.GetAxis("Horizontal");
+		float moveHorizontal = Input.GetAxis("Horizontal");
+		float moveVertical = Input.GetAxis("Vertical");
 
 		Vector3 movement = new Vector3(moveHorizontal,0.0f,moveVertical);
 
